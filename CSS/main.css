@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:rgb(65 37 158);
+    position: relative;
+    color: rgb(23, 10, 80);
+}
+/* header */
+
+.header{
+    background-image: url(http:azim.commonsupport.com/Appway/images/icons/banner-bg-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 119vh;
+}
+.nav-link , .btn-sm{
+    color: white;
+    font-weight: 100;
+}
+.navbar-expand-md {
+    background: linear-gradient(to right, rgb(81, 81, 255), rgba(238, 107, 255, 0.719));
+    width: 95%;
+    margin: auto;
+    border-radius: 12px;
+    position: fixed;
+    left: 15px;
+    right: 15px;
+    margin-top: 11px;
+    z-index: 4;
+}
+
+.header-content{
+    display:flex;
+    padding: 40px 35px;
+    align-items: center;
+    
+}
+
+.introtext h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.introtext p{
+    color: rgb(255, 245, 232);
+}
+
+.btn1{
+    margin-top: 20px;
+    background: linear-gradient(to right, rgb(26, 109, 187), rgb(247, 122, 236));
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 100vmax;
+    position: relative;
+    transition: scale 0.4s ease;
+}
+
+.btn-fill {
+    background: #549cdb;
+    width: 150%;
+    height: 200%;
+    border-radius: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.btn1{
+    overflow: hidden;
+}
+
+.btn-content {
+    position: relative;
+    z-index: 2;
+}
+
+.btn1:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Services */
+.bd-example-cssgrid{
+    height: 125vh;
+    background-image: url(http:azim.commonsupport.com/Appway/images/icons/layer-image-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+.title-services{
+    margin-top: 15px;
+    color: darkblue;
+}
+.title-services p{
+    margin-top: 15px;
+    color: rgb(153, 153, 182);
+}
+
+.text-center{
+    /* background-color: aquamarine; */
+    width: 85%;
+    margin: 50px auto;
+}
+.g-col-6{
+    border-radius: 8px;
+    border: none !important;
+    background-color: rgb(79, 175, 231) !important;
+}
+.g-col-6:hover{
+    background-color: rgb(79, 33, 139) !important;
+}
+.g-col-6 h1{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+}
+.g-col-6 p {
+    font-size: 14px;
+    color: rgb(229, 229, 252);
+}
+
+.device{
+    background-image: url(http:azim.commonsupport.com/Appway/images/icons/banner-bg-10.png);
+    background-size: cover;
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+#device2{
+    margin-top: 90px !important;
+    color: #ffffff;
+}
+
+#device2 h1{
+    font-weight: bolder;
+}
+
+#device2 p{
+    margin-top: 40px;
+}
+
+#bttm{
+    margin-top: 50px;
+}
+
+.hvr-rectangle-out {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    background:linear-gradient(to left,rgb(82 67 151), rgb(222, 142, 241));
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.hvr-rectangle-out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(56, 2, 173, 0.432);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-rectangle-out:hover,
+.hvr-rectangle-out:focus,
+.hvr-rectangle-out:active {
+    color: #ffffff;
+}
+
+.hvr-rectangle-out:hover:before,
+.hvr-rectangle-out:focus:before,
+.hvr-rectangle-out:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border-radius: 10px;
+    border: none;
+}
+
+
+.timeline{
+    background-color: white;
+    padding: 70px;
+    margin-bottom: 50px;
+}
+
+.title-timeline{
+    text-align: center;
+}
+
+.slider-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slider-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #4070f4;
+    border-radius: 25px;
+    top: 0;
+    left: 0;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.card-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4070f4;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+}
+
+
+
+.swiper-pagination-bullet {
+    background-color: #6e93f7;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4070f4;
+}
+
+@media (max-width: 768px) {
+    .slider-content {
+        margin: 0 10px;
+    }
+
+}
+
+footer{
+    color: rgb(38, 10, 104) !important;
+}
+
